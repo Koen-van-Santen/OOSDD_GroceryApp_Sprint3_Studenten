@@ -15,4 +15,10 @@
             <ShellContent Title="Producten" ContentTemplate="{DataTemplate local:ProductView}" />
         </Tab>
     </TabBar>
+    <Shell.ToolbarItems>
+        <ToolbarItem Text="Uitloggen"
+                     Clicked="OnLogoutClicked"
+                     Priority="0"
+                     Order="Primary" />
+    </Shell.ToolbarItems>
 </Shell>
